@@ -1,0 +1,17 @@
+// defining universal selector , only universal element get the behaviour not pseudo element
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;  // 1rem == 10px (default size is 16px == 100% , when the user change the default size 18px than it change automatically also)
+}
+
+body {
+  padding: 3rem;
+  box-sizing: border-box;
+}
