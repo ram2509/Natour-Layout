@@ -10,9 +10,22 @@
     transition: all .2s;
   }
 
-  & {
+  &--white {
     background-color: $color-white;
     color: $color-grey;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
   }
 
   &:hover {
@@ -44,9 +57,7 @@
     transition: all .4s;
   }
 
-  &--white::after {
-    background-color: $color-white;
-  }
+
 
   &--animated {
     animation-name: moveInBottom;

@@ -6,6 +6,7 @@
   url("../../img/hero.jpg");
   background-size: cover;             // try to fit into the view port
   background-position: top;          // stay at the top(when resize the web page)
+  -webkit-clip-path: polygon(0 0,100% 0,100% 75vh, 0 100%);
   clip-path: polygon(0 0,100% 0,100% 75vh, 0 100%);
   position: relative;
 
