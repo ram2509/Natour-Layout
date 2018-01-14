@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b094f5-f8b3-41b1-a195-0b1517734c3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/layout/_navigation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/components/_pop.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="$PROJECT_DIR$/npm-debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/abstracts/_mixins.scss" afterPath="$PROJECT_DIR$/sass/abstracts/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,37 +24,39 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="-636">
+              <caret line="354" column="72" lean-forward="false" selection-start-line="354" selection-start-column="72" selection-end-line="354" selection-end-column="72" />
               <folding>
                 <element signature="e#783#789#1" expanded="true" />
                 <element signature="e#867#873#1" expanded="true" />
-                <element signature="e#3639#3645#0" expanded="true" />
-                <element signature="e#7201#7207#0" expanded="true" />
-                <element signature="e#8898#8904#0" expanded="true" />
-                <element signature="e#10602#10608#0" expanded="true" />
-                <element signature="e#14850#14856#0" expanded="true" />
-                <element signature="e#17285#17291#0" expanded="true" />
+                <element signature="e#3651#3657#0" expanded="true" />
+                <element signature="e#7231#7237#0" expanded="true" />
+                <element signature="e#8933#8939#0" expanded="true" />
+                <element signature="e#10642#10648#0" expanded="true" />
+                <element signature="e#14895#14901#0" expanded="true" />
+                <element signature="e#17330#17336#0" expanded="true" />
+                <element signature="e#19304#19311#1" expanded="true" />
+                <element signature="e#19564#19571#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/layout/_navigation.scss">
+      <file leaf-file-name="_pop.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/components/_pop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="139" column="30" lean-forward="false" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+            <state relative-caret-position="504">
+              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/main.scss">
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/abstracts/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -78,7 +80,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sass/base/_animation.scss" />
         <option value="$PROJECT_DIR$/sass/base/_base.scss" />
-        <option value="$PROJECT_DIR$/sass/abstracts/_mixins.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_grid.scss" />
         <option value="$PROJECT_DIR$/sass/base/_typography.scss" />
         <option value="$PROJECT_DIR$/sass/components/_composition.scss" />
@@ -94,9 +95,12 @@
         <option value="$PROJECT_DIR$/sass/base/_utilites.scss" />
         <option value="$PROJECT_DIR$/sass/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_footer.scss" />
-        <option value="$PROJECT_DIR$/sass/main.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/layout/_navigation.scss" />
+        <option value="$PROJECT_DIR$/sass/components/_popup.scss" />
+        <option value="$PROJECT_DIR$/sass/main.scss" />
+        <option value="$PROJECT_DIR$/sass/abstracts/_mixins.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/components/_pop.scss" />
       </list>
     </option>
   </component>
@@ -131,8 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,6 +153,18 @@
               <item name="Natour" type="b2602c69:ProjectViewProjectNode" />
               <item name="Natour" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Natour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Natour" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Natour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Natour" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Natour" type="b2602c69:ProjectViewProjectNode" />
@@ -203,11 +219,14 @@
       <workItem from="1515860806554" duration="7226000" />
       <workItem from="1515869556169" duration="6456000" />
       <workItem from="1515880288660" duration="6586000" />
+      <workItem from="1515913171684" duration="489000" />
+      <workItem from="1515913698837" duration="1628000" />
+      <workItem from="1515915352224" duration="3579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97367000" />
+    <option name="totallyTimeSpent" value="103063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="122" y="52" width="1851" height="1092" extended-state="6" />
@@ -218,7 +237,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -241,20 +260,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -277,12 +282,14 @@
           <folding>
             <element signature="e#783#789#1" expanded="true" />
             <element signature="e#867#873#1" expanded="true" />
-            <element signature="e#3639#3645#0" expanded="true" />
-            <element signature="e#7201#7207#0" expanded="true" />
-            <element signature="e#8898#8904#0" expanded="true" />
-            <element signature="e#10602#10608#0" expanded="true" />
-            <element signature="e#14850#14856#0" expanded="true" />
-            <element signature="e#17285#17291#0" expanded="true" />
+            <element signature="e#3651#3657#0" expanded="true" />
+            <element signature="e#7231#7237#0" expanded="true" />
+            <element signature="e#8933#8939#0" expanded="true" />
+            <element signature="e#10642#10648#0" expanded="true" />
+            <element signature="e#14895#14901#0" expanded="true" />
+            <element signature="e#17330#17336#0" expanded="true" />
+            <element signature="e#19304#19311#1" expanded="true" />
+            <element signature="e#19564#19571#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -438,12 +445,14 @@
           <folding>
             <element signature="e#783#789#1" expanded="true" />
             <element signature="e#867#873#1" expanded="true" />
-            <element signature="e#3639#3645#0" expanded="true" />
-            <element signature="e#7201#7207#0" expanded="true" />
-            <element signature="e#8898#8904#0" expanded="true" />
-            <element signature="e#10602#10608#0" expanded="true" />
-            <element signature="e#14850#14856#0" expanded="true" />
-            <element signature="e#17285#17291#0" expanded="true" />
+            <element signature="e#3651#3657#0" expanded="true" />
+            <element signature="e#7231#7237#0" expanded="true" />
+            <element signature="e#8933#8939#0" expanded="true" />
+            <element signature="e#10642#10648#0" expanded="true" />
+            <element signature="e#14895#14901#0" expanded="true" />
+            <element signature="e#17330#17336#0" expanded="true" />
+            <element signature="e#19304#19311#1" expanded="true" />
+            <element signature="e#19564#19571#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -466,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/abstracts/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -603,35 +605,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/_popup.scss" />
+    <entry file="file://$PROJECT_DIR$/sass/layout/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="139" column="30" lean-forward="false" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="78">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="-636">
+          <caret line="354" column="72" lean-forward="false" selection-start-line="354" selection-start-column="72" selection-end-line="354" selection-end-column="72" />
           <folding>
             <element signature="e#783#789#1" expanded="true" />
             <element signature="e#867#873#1" expanded="true" />
-            <element signature="e#3639#3645#0" expanded="true" />
-            <element signature="e#7201#7207#0" expanded="true" />
-            <element signature="e#8898#8904#0" expanded="true" />
-            <element signature="e#10602#10608#0" expanded="true" />
-            <element signature="e#14850#14856#0" expanded="true" />
-            <element signature="e#17285#17291#0" expanded="true" />
+            <element signature="e#3651#3657#0" expanded="true" />
+            <element signature="e#7231#7237#0" expanded="true" />
+            <element signature="e#8933#8939#0" expanded="true" />
+            <element signature="e#10642#10648#0" expanded="true" />
+            <element signature="e#14895#14901#0" expanded="true" />
+            <element signature="e#17330#17336#0" expanded="true" />
+            <element signature="e#19304#19311#1" expanded="true" />
+            <element signature="e#19564#19571#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layout/_navigation.scss">
+    <entry file="file://$PROJECT_DIR$/sass/abstracts/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="139" column="30" lean-forward="false" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+        <state relative-caret-position="192">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/_pop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding />
         </state>
       </provider>
